@@ -1,0 +1,6 @@
+targets, factors
+pla_1, pol_1 | pol_2
+pla_2, !pol_1 & pol_2
+pla_3, pol_2
+pol_1, pla_2 & !pla_1
+pol_2, ((pla_2 | pla_3) & !pla_1 )| (pla_2 & pla_3 & pla_1 ) 
