@@ -1,0 +1,7 @@
+targets, factors
+X, Y, 0.9
+X, !Y, 0.1
+Y, X & Z, 0.9
+Y, !(X & Z), 0.1
+Z, !X, 0.9
+Z, X, 0.1
