@@ -9,10 +9,10 @@
 library(BoolNet)
 
 # establecer directorio de trabajo
-setwd("C:/Users/Elisa/Dropbox/Docencia adscripción biomédicas/EXAMENES Y RESPUESTAS A PRÁCTICAS PCBIOL 2021 1/ensamblaje de comunidades")
+# setwd("C:/Users/Elisa/Dropbox/Docencia adscripción biomédicas/EXAMENES Y RESPUESTAS A PRÁCTICAS PCBIOL 2021 1/ensamblaje de comunidades")
 
 # cargar red
-net <- loadNetwork("Red_planta_polinizador.txt")
+net <- loadNetwork("red_planta_polinizador.txt")
 net
 
 # mostrar la red
@@ -31,3 +31,4 @@ path <- getPathToAttractor(net, c(0,1,1,1,1))
 path
 
 plotSequence(sequence=path)
+
